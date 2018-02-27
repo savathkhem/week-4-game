@@ -1,0 +1,67 @@
+/*---------------------*/
+/* Body and background */
+/*---------------------*/
+h2 {
+  background-color: blue;
+  color:white;
+}
+
+
+body { 
+  background: slategray url(../images/background.jpg) no-repeat fixed center; 
+}
+
+
+.character {
+  float:left;
+}
+  
+/*---------------------*/
+/* Character rendering */
+/*---------------------*/
+
+.character-name {
+  background-color: orange;
+  font-style: bold;
+  color: white;
+}
+
+.character-health {
+  background-color: white;
+  font-style: bold;
+  color: #999
+}
+
+#player-combat-section {
+  margin: 30px;
+}
+
+#npc {
+  margin: 30px;
+}
+
+  /*---------------------*/
+  /*      Fighting       */
+  /*---------------------*/
+
+  #attack-button{
+    visibility: hidden;
+  }
+  
+  /*---------------------*/
+  /* Available Oponents  */
+  /*---------------------*/
+ 
+  #roster-section{
+    visibility:visible;
+  }
+  
+  /*---------------------*/
+  /*      npc-combat-section       */
+  /*---------------------*/
+  
+
+  
+  /*---------------------*/
+  /*   Media Queries     */
+  /*---------------------*/

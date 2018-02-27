@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StreetFighter RPG</title>
+
+    <!-- LINKED CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <div class="container text-center">
+            <!-- <h1 class="jumbotron text-center">StarWars RPG</h1> -->
+            <a href="logo"><img src="assets\images\streetFighter.png" width=40% height=40%></a>
+        </div>
+    </header>
+    <!-- CONTENT SECTION-->
+    <div class="container background">
+        <div class="row">
+
+            <!-- COLUMN SECTION characterSelection -->
+            <div class="col-md-12">
+              <div class="row">
+                  <div class="col-md-12 text-center" id="roster-section">
+                  </div>
+              </div>
+          </div>
+                      <!-- COLUMN SECTION npcSelection -->
+                      <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-12 text-center" id="npc-roster-section">
+                                </div>
+                            </div>
+                        </div>
+
+            <!-- COLUMN SECTION playerSelection -->
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12 text-left" id="player-combat-section">
+                    </div>
+                </div>
+            </div>
+
+            <!-- COLUMN SECTION enemySelection -->
+            <div class="col-md-6">
+              <div class="row">
+                  <div class="col-md-12 text-right" id="npc">
+                      <!-- <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x200"></a> -->
+                  </div>
+              </div>
+          </div>
+
+            <!-- COLUMN SECTION battleScreen -->
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <button type="button" class="btn btn-danger" id="attack-button">Attack!</button>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <div class="jumbotron" id="gameMessage"></div>
+                    </div>
+                </div>
+            </div>
+
+      </div>
+    </div>
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <!-- Latest compiled and minified JavaScript for bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Game logic -->
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
+
